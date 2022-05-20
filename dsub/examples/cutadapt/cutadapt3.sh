@@ -16,8 +16,8 @@ dsub  \
 	--preemptible \
 	--logging gs://${MY_PROJECT}-output/multi-logs  \
         --image  'quay.io/biocontainers/cutadapt:4.0--py37h8902056_0' \
-        --tasks ~/gcsfuse/mhra-ngs-dev-pfgh_input/dsub/examples/cutadapt/my-tasks.tsv  \
-	--script ~/gcsfuse/mhra-ngs-dev-pfgh_input/dsub/examples/cutadapt/dsub-cutadapt3.sh  \
+        --tasks ~/gcsfuse/xxxxx_input/dsub/examples/cutadapt/my-tasks.tsv  \
+	--script ~/gcsfuse/xxxx_input/dsub/examples/cutadapt/dsub-cutadapt3.sh  \
 	--wait \
 	--summary
 

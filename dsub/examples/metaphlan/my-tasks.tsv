@@ -1,2 +1,2 @@
 --input R1	--input R2	--input-recursive M3DB	--output PROFILE	--output BT2_OUT
-gs://mhra-ngs-dev-pfgh-output/test/test_278_sub_chr21_1_trimmed.fastq.gz	gs://mhra-ngs-dev-pfgh-output/test/test_278_sub_chr21_2_trimmed.fastq.gz	gs://mhra-shr-dev-ssot-metagenomics-references/metaphlan_dbs	gs://mhra-ngs-dev-pfgh-output/test/278_profile.txt	gs://mhra-ngs-dev-pfgh-output/test/278.bt2out
+gs://xxxxxxxxxxxxx-output/test/test_278_sub_chr21_1_trimmed.fastq.gz	gs://xxxxx-output/test/test_278_sub_chr21_2_trimmed.fastq.gz	gs://xxxxxxx-ssot-metagenomics-references/metaphlan_dbs	gs://xxxxxx-output/test/278_profile.txt	gs://xxxxxxxxxxx-output/test/278.bt2out

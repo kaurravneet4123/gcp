@@ -1,7 +1,7 @@
 # basic dsub script for single task
 
 #replace the MY_PROJECT value with your project
-#export MY_PROJECT=mhra-ngs-dev-pfgh
+#export MY_PROJECT=xxxxxxxxxxxxx
 
 
 echo Enter your project name:

@@ -1,9 +1,9 @@
 # basic metaphlan dsub script
 
-export MY_PROJECT=mhra-ngs-dev-pfgh
+#export MY_PROJECT=xxxxxxxxxxxx
 
-#echo Enter  your Prpject name:
-#read MY_PROJECT
+echo Enter  your Project name:
+read MY_PROJECT
 
 dsub \
         --provider 'google-cls-v2' \
@@ -20,8 +20,8 @@ dsub \
 	--min-cores 4 \
 	--min-ram 16 \
         --image  quay.io/biocontainers/metaphlan:3.0.14--pyhb7b1952_0 \
-	--tasks ~/gcsfuse/mhra-ngs-dev-pfgh_input/dsub/examples/metaphlan/my-tasks.tsv \
-	--script ~/gcsfuse/mhra-ngs-dev-pfgh_input/dsub/examples/metaphlan/dsub-metaphlan.sh \
+	--tasks ~/gcsfuse/xxxxxxxxxxxxx_input/dsub/examples/metaphlan/my-tasks.tsv \
+	--script ~/gcsfuse/xxxxxxxxxxxx_input/dsub/examples/metaphlan/dsub-metaphlan.sh \
 	--wait \
 	--summary
 
