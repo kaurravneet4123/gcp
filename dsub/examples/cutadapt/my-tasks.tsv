@@ -1,0 +1,3 @@
+--input FASTQ_R1	--input FASTQ_R2	--output FASTQ_TRIM_R1	--output FASTQ_TRIM_R2
+gs://mhra-ngs-dev-pfgh-input/test-data/test_278_sub_chr21_1.fastq.gz	gs://mhra-ngs-dev-pfgh-input/test-data/test_278_sub_chr21_2.fastq.gz	gs://mhra-ngs-dev-pfgh-output/test/test_278_sub_chr21_1_trimmed.fastq.gz	gs://mhra-ngs-dev-pfgh-output/test/test_278_sub_chr21_2_trimmed.fastq.gz
+gs://mhra-ngs-dev-pfgh-input/test-data/test_280_sub_chr21_1.fastq.gz	gs://mhra-ngs-dev-pfgh-input/test-data/test_280_sub_chr21_2.fastq.gz	gs://mhra-ngs-dev-pfgh-output/test/test_280_sub_chr21_1_trimmed.fastq.gz	gs://mhra-ngs-dev-pfgh-output/test/test_280_sub_chr21_2_trimmed.fastq.gz
