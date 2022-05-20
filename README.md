@@ -1,1 +1,2 @@
-# gcp
+# gcp token
+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
